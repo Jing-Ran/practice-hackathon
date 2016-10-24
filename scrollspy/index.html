@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Practice Hackathon - scrollspy</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="scrollspy">
+      <ul class="nav">
+        <li class="nav_li">
+          <a href="#item0">One</a>
+        </li>
+        <li class="nav_li">
+          <a href="#item1">Two</a>
+          <ul class="subnav">
+            <li>
+              <a href="#item1_0">Two-one</a>
+            </li>
+            <li>
+              <a href="#item1_1">Two-two</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav_li">
+          <a href="#item2">Three</a>
+          <ul class="subnav">
+            <li>
+              <a href="#item2_0">Three-one</a>
+            </li>
+            <li>
+              <a href="#item2_1">Three-two</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="content">
+    <section class="content_item" id="item0">
+      <h2>One</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur augue ex, sed pretium lectus venenatis eu. Etiam dolor tellus, cursus sed euismod vitae, tincidunt id odio. Suspendisse est augue, egestas vel nulla a, tincidunt faucibus mauris. Suspendisse potenti. Cras aliquet sed massa at condimentum. Praesent ut accumsan massa. Aenean congue purus a mi finibus scelerisque. Vivamus fringilla et velit ac volutpat. Vivamus molestie lacinia elementum. Quisque fringilla nec magna in mollis. Maecenas id iaculis mauris, et facilisis urna. Aenean gravida, turpis vitae ultricies volutpat, dui orci placerat dui, ac pharetra turpis mauris sit amet est. Morbi eu urna porttitor enim interdum vestibulum. Sed dapibus ligula eget metus accumsan tincidunt. Phasellus tincidunt dui sed malesuada faucibus. Nunc dapibus posuere blandit.</p>
+    </section>
+    <section class="content_item" id="item1">
+      <h2>Two</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur augue ex, sed pretium lectus venenatis eu. Etiam dolor tellus, cursus sed euismod vitae, tincidunt id odio.</p>
+      
+      <section id="item1_0" class="content_item-sub">
+        <h3>Two-one</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur augue ex, sed pretium lectus venenatis eu. Etiam dolor tellus, cursus sed euismod vitae, tincidunt id odio. Aenean congue purus a mi finibus scelerisque. Vivamus fringilla et velit ac volutpat. Vivamus molestie lacinia elementum. Quisque fringilla nec magna in mollis. Maecenas id iaculis mauris, et facilisis urna. Aenean gravida, turpis vitae ultricies volutpat, dui orci placerat dui, ac pharetra turpis mauris sit amet est. Morbi eu urna porttitor enim interdum vestibulum. Sed dapibus ligula eget metus accumsan tincidunt. Phasellus tincidunt dui sed malesuada faucibus. Nunc dapibus posuere blandit.</p>
+      </section>
+
+      <section id="item1_1" class="content_item-sub">
+        <h3>Two-two</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur augue ex, sed pretium lectus venenatis eu. Etiam dolor tellus, cursus sed euismod vitae, tincidunt id odio. Aenean congue purus a mi finibus scelerisque. Vivamus fringilla et velit ac volutpat. Vivamus molestie lacinia elementum. Quisque fringilla nec magna in mollis. Maecenas id iaculis mauris, et facilisis urna. Aenean gravida, turpis vitae ultricies volutpat, dui orci placerat dui, ac pharetra turpis mauris sit amet est. Morbi eu urna porttitor enim interdum vestibulum. Sed dapibus ligula eget metus accumsan tincidunt. Phasellus tincidunt dui sed malesuada faucibus. Nunc dapibus posuere blandit.</p>
+      </section>
+    </section>
+
+    <section class="content_item" id="item2">
+      <h2>Three</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur augue ex. Aenean congue purus a mi finibus scelerisque. Vivamus fringilla et velit ac volutpat. Vivamus molestie lacinia elementum. Quisque fringilla nec magna in mollis. Maecenas id iaculis mauris, et facilisis urna. Aenean gravida, turpis vitae ultricies volutpat, dui orci placerat dui, ac pharetra turpis mauris sit amet est. Morbi eu urna porttitor enim interdum vestibulum. Sed dapibus ligula eget metus accumsan tincidunt. Phasellus tincidunt dui sed malesuada faucibus. Nunc dapibus posuere blandit.</p>
+
+      <section id="item2_0" class="content_item-sub">
+        <h3 id="three1">Three-one</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur augue ex, sed pretium lectus venenatis eu. Etiam dolor tellus, cursus sed euismod vitae, tincidunt id odio. Aenean congue purus a mi finibus scelerisque. Vivamus fringilla et velit ac volutpat. Vivamus molestie lacinia elementum. Quisque fringilla nec magna in mollis. Maecenas id iaculis mauris, et facilisis urna. Aenean gravida, turpis vitae ultricies volutpat, dui orci placerat dui, ac pharetra turpis mauris sit amet est. Morbi eu urna porttitor enim interdum vestibulum. Sed dapibus ligula eget metus accumsan tincidunt. Phasellus tincidunt dui sed malesuada faucibus. Nunc dapibus posuere blandit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur augue ex, sed pretium lectus venenatis eu. Etiam dolor tellus, cursus sed euismod vitae, tincidunt id odio. Aenean congue purus a mi finibus scelerisque. Vivamus fringilla et velit ac volutpat. Vivamus molestie lacinia elementum. Quisque fringilla nec magna in mollis. Maecenas id iaculis mauris, et facilisis urna. Aenean gravida, turpis vitae ultricies volutpat, dui orci placerat dui, ac pharetra turpis mauris sit amet est. Morbi eu urna porttitor enim interdum vestibulum. Sed dapibus ligula eget metus accumsan tincidunt. Phasellus tincidunt dui sed malesuada faucibus. Nunc dapibus posuere blandit.</p>
+      </section>
+      
+      <section id="item2_1" class="content_item-sub">
+        <h3 id="three2">Three-two</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur augue ex, sed pretium lectus venenatis eu. Etiam dolor tellus, cursus sed euismod vitae, tincidunt id odio. Aenean congue purus a mi finibus scelerisque. Vivamus fringilla et velit ac volutpat. Vivamus molestie lacinia elementum. Quisque fringilla nec magna in mollis. Maecenas id iaculis mauris, et facilisis urna. Aenean gravida, turpis vitae ultricies volutpat, dui orci placerat dui, ac pharetra turpis mauris sit amet est. Morbi eu urna porttitor enim interdum vestibulum. Sed dapibus ligula eget metus accumsan tincidunt. Phasellus tincidunt dui sed malesuada faucibus. Nunc dapibus posuere blandit.</p>
+      </section>
+    </section>
+    </div>
+      
+    <script src="script.js"></script> 
+  </body>
+</html>
